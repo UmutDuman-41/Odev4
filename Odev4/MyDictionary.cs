@@ -40,7 +40,19 @@ namespace Odev4
 
             }
 
+        }
+        public void ID()
+        {
+            foreach(var Id in keys)
+            {
+                Console.WriteLine("Öğrencilerin ID Değerleri: "+ Id);
+            }
 
+        } 
+
+        public int Count // Biz bu MyDictionary'nin Count'unu çağırırsak o da bize bu keys'in eleman sayısını verir.
+        {
+            get { return keys.Length; }
         }
     }
 }

@@ -12,7 +12,8 @@ namespace Odev4
             myDictionary.Add(26, "Kaan");
 
             myDictionary.List();
-
+            Console.WriteLine(myDictionary.Count);
+            myDictionary.ID();
         }
     }
 }
