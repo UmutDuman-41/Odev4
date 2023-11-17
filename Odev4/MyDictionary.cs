@@ -37,7 +37,6 @@ namespace Odev4
             for (int i = 0; i < items.Length; i++)
             {
                 Console.WriteLine(keys[i] + " no'lu öğrencimiz: " + items[i]);
-
             }
 
         }
